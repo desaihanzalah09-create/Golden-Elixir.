@@ -1,0 +1,394 @@
+.body {
+    margin: 0;
+    background: #000;
+    color: #d4af37;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* HEADER */
+header {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header img {
+    width: 120px;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 42px;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.tagline {
+    font-size: 14px;
+    letter-spacing: 3px;
+    color: #aaa;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* PRODUCT IMAGE */
+.product-image {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.product-image img {
+    width: 220px;
+    filter: drop-shadow(0 0 20px rgba(212,175,55,0.3));
+}
+
+/* PRODUCT CARD */
+.product {
+    margin: 40px auto;
+    max-width: 500px;
+    padding: 40px;
+    border: 1px solid rgba(212,175,55,0.3);
+    border-radius: 15px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.product h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+}
+
+.price {
+    font-size: 30px;
+    margin: 15px 0;
+    background: linear-gradient(to right, #ffd700, #d4af37);
+    color: black
+}
+
+.desc {
+    color: #ccc;
+    line-height: 1.7;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* BUTTON */
+.button {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 14px 35px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: black;
+    background: linear-gradient(to right, #ffd700, #d4af37);
+    transition: 0.3s;
+}
+
+.button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px gold;
+}
+
+/* SECTION */
+.section {
+    text-align: center;
+    padding: 60px 20px;
+    max-width: 700px;
+    margin: auto;
+}
+
+.section h2 {
+    font-family: 'Playfair Display', serif;
+}
+
+.section p {
+    color: #bbb;
+    line-height: 1.7;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid rgba(212,175,55,0.3);
+    color: #777;
+    font-size: 13px;
+}
+
+.logo0{
+    width: 220px;
+    height: 220px;
+    border-radius: 60%;
+    object-fit: cover;
+}
+
+nav{
+    background-color: #222;
+}
+
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 30px 40px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.main-content{
+    margin-top: 80px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f1cb4d;
+    padding: 30px 40px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.logo{
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.nav-links a:hover{
+    color: white
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    background: #f4f6f9;
+}
+
+.contact-section{
+    padding: 60px 20px;
+}
+
+.contact-container{
+    max-width: 1100px;
+    margin: auto;
+    text-align: center;
+}
+
+.contact-container h1{
+    font-size: 36px;
+    margin-bottom: 10px;    
+}
+
+.contact-container p{
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.contact-content{
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/*Form*/
+.contact-form{
+    flex: 1;
+    min-width: 300px;
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0,1);
+}
+
+.input-group{
+    margin-bottom: 15px;
+}
+
+.input-group input,
+.input-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px  solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+button{
+    width: 100%;
+    padding: 12px;
+    background:  #e9c140;
+    color: black;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.button:hover{
+    background-color:  #e9c140;
+}
+
+/*Contact Info*/
+.contact-info{
+    flex: 1;
+    min-width: 250px;
+    text-align: left;
+    color: #e9c140;
+}
+
+.contact-info h2{
+    margin-bottom: 15px;
+}
+
+.contact-info p{
+    margin-bottom: 10px;
+    color: whitesmoke;
+}
+
+/*Responsive*/
+.contact-content{
+    flex-direction: column;
+}
+
+/* Base (Mobile First) */
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background: #0a0a0a;
+  color: #d4af37;
+}
+
+/* Container */
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  flex-direction: column; /* stack on phone */
+  align-items: center;
+  padding: 10px;
+}
+
+nav a {
+  margin: 5px 0;
+  text-decoration: none;
+  color: #d4af37;
+}
+
+/* Buttons */
+.btn {
+  display: block;
+  width: 100%; /* full width on phone */
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 10px;
+  text-align: center;
+  background: linear-gradient(135deg, #d4af37, #b8962e);
+  color: black;
+}
+
+/* Cards */
+.card {
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  padding: 15px;
+  background: rgba(255,255,255,0.05);
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column; /* stack on phone */
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  nav {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .card {
+    width: 45%;
+  }
+
+  .btn {
+    width: auto;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  .card {
+    width: 30%;
+  }
+}
+
+h1 {
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+p {
+  font-size: 0.95rem;
+}
+
+/* Bigger screens */
+@media (min-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  p {
+    font-size: 1.1rem;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow-x: hidden;
+}
