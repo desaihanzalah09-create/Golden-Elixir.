@@ -261,6 +261,7 @@ button{
     min-width: 250px;
     text-align: left;
     color: #e9c140;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .contact-info h2{
